@@ -1,0 +1,20 @@
+-----------------To ENABLE running scripts
+set-executionpolicy remotesigned
+
+-----------------To DISABLE running scripts
+set-executionpolicy restricted
+
+-----------------Then Import the modules from the scripts
+Navigate to the ps1 files
+
+-----------------Example
+cd desktop
+
+> Import-Module .\a.ps1
+> Import-Module .\b.ps1
+> Import-Module .\c.ps1
+> a
+> b
+> c
+
+_SC_ ==> indicates Windows Services on the machine
